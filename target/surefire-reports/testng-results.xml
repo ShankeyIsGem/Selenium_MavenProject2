@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testng Learning" duration-ms="40143" started-at="2021-09-18T09:38:43Z" finished-at="2021-09-18T09:39:23Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="20455" started-at="2021-09-18T09:38:43Z" finished-at="2021-09-18T09:39:04Z">
+      <class name="testnglearning.TestParemetrizationXML">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testnglearning.TestParemetrizationXML@60f82f98]" name="doLogin" duration-ms="20409" started-at="2021-09-18T09:38:43Z" finished-at="2021-09-18T09:39:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.way2automation.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- testnglearning.TestParemetrizationXML -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="40143" started-at="2021-09-18T09:38:43Z" finished-at="2021-09-18T09:39:23Z">
+      <class name="testnglearning.TestParemetrizationXML">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testnglearning.TestParemetrizationXML@735f7ae5]" name="doLogin" duration-ms="40100" started-at="2021-09-18T09:38:43Z" finished-at="2021-09-18T09:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- testnglearning.TestParemetrizationXML -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Testng Learning -->
+</testng-results>

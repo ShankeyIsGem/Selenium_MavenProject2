@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testng Learning" parallel="tests">
+
+  <test name="Chrome Test">
+  <parameter name="url" value="http://www.way2automation.com"></parameter>
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="testnglearning.TestParemetrizationXML"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Firefox Test">
+  <parameter name="url" value="http://www.google.com"></parameter>
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="testnglearning.TestParemetrizationXML"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->

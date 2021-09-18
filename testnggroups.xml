@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testng Learning">
+	<groups>
+		<run>
+			<include name="high"></include>
+		</run>
+	</groups>
+
+	<test name="Login Test">
+		<classes>
+			<class name="testnglearning.TestCase1" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Validate Title Test">
+		<classes>
+			<class name="testnglearning.Testcase2" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Dependency Test">
+		<groups>
+			<run>
+				<exclude name="low"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="testnglearning.TestCase3" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
